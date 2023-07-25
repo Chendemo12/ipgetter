@@ -1,0 +1,19 @@
+version: '3'
+services:
+  ipgetter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DEBUG=1
+      - LISTEN_PORT=7290
+    ports:
+      - "7290:7290"
+
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '64M'
+
+    restart: always

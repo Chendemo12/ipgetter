@@ -1,0 +1,11 @@
+**/vendor
+**/*.exe
+
+
+**/.idea/
+**/.vscode/
+**/tmp/
+**/bin/
+**/deb/
+**/logs/
+
