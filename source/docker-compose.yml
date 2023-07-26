@@ -4,6 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+
     environment:
       - DEBUG=1
       - LISTEN_PORT=7290
