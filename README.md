@@ -4,10 +4,6 @@
 
 ## Deps
 
-### Debian
-
-- 通过[https://github.com/Chendemo12/make-deb](https://github.com/Chendemo12/make-deb)创建debian结构；
-
 ### Api
 
 - 基于`fiber`

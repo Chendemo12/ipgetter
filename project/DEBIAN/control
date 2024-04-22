@@ -1,9 +1,0 @@
-Package: ipgetter
-Version: 0.0.1
-Architecture: amd64
-Section: utils
-Priority: optional
-Maintainer: apps.com
-Contact: apps.com
-Description: ipgetter app.
-
