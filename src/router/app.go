@@ -1,18 +1,18 @@
 package router
 
 import (
+	"time"
+
 	"github.com/Chendemo12/fastapi"
 	"github.com/Chendemo12/fastapi/middleware/fiberWrapper"
 	"github.com/Chendemo12/fastapi/middleware/routers"
-	"time"
 )
 
 func New() *fastapi.Wrapper {
 	app := fastapi.New(fastapi.Config{
-		Version:     "v0.2.0",
+		Version:     "v1.0.0",
 		Description: "向请求者返回其当前的IP地址",
 		Title:       "IP-GETTER",
-		Debug:       true,
 	})
 
 	// 底层采用fiber
